@@ -6,6 +6,8 @@ import { signOut } from "@/app/auth/actions";
 import { createProject } from "./actions";
 import DeleteProjectButton from "@/components/DeleteProjectButton";
 
+export const instant = false;
+
 type DashboardProps = {
     searchParams: Promise<{
         error?: string;

@@ -2,6 +2,8 @@
 import Link from "next/link";
 import { signUp } from "@/app/auth/actions";
 
+export const instant = false;
+
 export default async function RegisterPage({
     searchParams,
 }: {

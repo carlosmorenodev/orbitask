@@ -2,6 +2,8 @@
 import Link from "next/link";
 import { signIn } from "@/app/auth/actions";
 
+export const instant = false;
+
 export default async function LoginPage({
     searchParams,
 }: {

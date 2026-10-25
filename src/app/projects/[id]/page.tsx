@@ -4,6 +4,8 @@ import Link from "next/link";
 import { createClient } from "@/utils/supabase/server";
 import Board from "@/components/Board";
 
+export const instant = false;
+
 type ProjectPageProps = {
     params: Promise<{ id: string }>;
 };
